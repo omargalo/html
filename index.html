@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar | Blog</title>
+    <style>
+        table, th, td {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Este es un h1 ¡Bienvenido a mi blog!</h1>
+    <br>
+    <h2>Este es un h2 Repasando HTML</h2>
+    <h3>Este es un h3 Repasando CSS</h3>
+    <h4>Este es un h4 Repasando JS</h4>
+    <h5>Este es un h5</h5>
+    <h6>Este es un h6</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempora labore accusantium voluptate dolor assumenda est vel, explicabo voluptatem illum sint laborum, provident doloremque. Deleniti, dignissimos. Dolores tempore sunt repudiandae?</p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nostrum pariatur saepe dignissimos architecto. Laborum quas mollitia esse at, ad earum minus aut, amet rem quasi deleniti repudiandae illum iste? <span style="color: blueviolet">Este texto esta dentro de un span</span><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempore iste alias beatae, consequuntur officiis suscipit obcaecati ipsa distinctio odit laudantium, ipsum minus doloribus quod deserunt, quam similique aliquid autem. </p>
+    <!--Este texto es un comentario-->
+    <br>
+    <img src="/img/misato.png" width="140" alt="misato katsuragi"/><br>
+    <a target="_blank" href="https://codigoespagueti.com/noticias/anime/que-significa-nombre-nerv-neon-genesis-evangelion/">Nerv</a>
+    <br>
+    <br>
+    <form action="formulario" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <br>
+        <br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha" placeholder="fecha">
+        <br>
+        <br>
+        <label for="archivo">Archivo:</label>
+        <input type="file" name="archivo" id="archivo">
+        <br>
+        <br>
+        <label for="comentario">Comentario:</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="60" rows="10" placeholder="Escribe aqui tu comentario"></textarea>
+        <br>
+        <br>
+        <label for="submit">Enviar:</label>
+        <input type="submit" name="submit" id="submit">
+        <br>
+        <br>
+        <button type="reset">Boton Reset</button>
+        <br>
+        <br>
+        <button type="submit">Boton Enviar</button>
+    </form>
+    <br>
+    <br>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <br>
+    <ol>
+        <li value="100">Orden 1</li>
+        <li>Orden 2</li>
+        <li>Orden 3</li>
+        <li>
+        <ol>
+            <li style="list-style-type: lower-roman;">sub elemento a</li>
+            <li style="list-style-type: lower-roman;">sub elemento b</li>
+            <li style="list-style-type: lower-roman;">sub elemento c</li>
+        </ol>
+        </li>
+    </ol>
+    <br>
+    <br>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Asus Motherboard</td>
+                <td>2700</td>
+            </tr>
+            <tr>
+                <td>MSI Motherboard</td>
+                <td>2300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 5000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
